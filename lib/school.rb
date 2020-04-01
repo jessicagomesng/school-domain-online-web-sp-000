@@ -15,6 +15,7 @@ class School
   def add_student(name, year)
     @roster[year] = []
     @roster[year] << ["#{name}"]
+    puts @roster
   end
 
 end
