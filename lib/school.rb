@@ -22,7 +22,7 @@ class School
     sorted = {}
 
     @roster.each do |year, array_of_students|
-      
+      sorted[year] 
 
   end
 
