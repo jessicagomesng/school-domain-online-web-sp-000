@@ -5,12 +5,12 @@ class School
 
   def initialize(name)
     @name = name
-    new
+    roster
   end
 
   def roster
     roster = {}
-  end 
+  end
 
 
 
