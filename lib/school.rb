@@ -19,7 +19,9 @@ class School
   end
 
   def sort
+    sorted = {}
     @roster.each do |year, array_of_students|
+      
   end
 
 end
