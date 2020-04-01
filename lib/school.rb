@@ -12,7 +12,7 @@ class School
   end
 
   def add_student(name, year)
-    roster[:year] = ["student"] 
-
+    roster[:year] = ["student"]
+  end 
 
 end
