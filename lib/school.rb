@@ -15,7 +15,7 @@ class School
 
   def add_student(name, year)
     @roster[year] = [] unless @roster[year]
-    @roster[year] << "#{name}"
+    @roster[year] << name 
   end
 
 end
