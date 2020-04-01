@@ -1,7 +1,7 @@
 # code here!
 class School
 
-  attr_reader :name
+  attr_reader :name, :roster
   roster = {}
 
   def initialize(name)
@@ -10,7 +10,7 @@ class School
   end
 
   def roster=(roster)
-    @roster = roster
+
   end
 
   def add_student(name, year)
