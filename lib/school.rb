@@ -5,10 +5,10 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = roster
+    roster 
   end
 
-  def roster=(roster)
+  def roster
     @roster = {}
   end
 
