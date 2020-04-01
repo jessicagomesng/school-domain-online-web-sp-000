@@ -22,6 +22,7 @@ class School
     sorted = {}
 
     @roster.each do |year, array_of_students|
+      sorted[year] = []
       sorted[year] = array_of_students.sort
     end
     sorted
