@@ -9,7 +9,7 @@ class School
     self.roster
   end
 
-  def roster
+  def roster=(roster)
     @roster = {}
   end
 
