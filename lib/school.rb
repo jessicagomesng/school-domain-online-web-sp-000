@@ -2,7 +2,7 @@
 class School
 
   attr_reader :name
-  attr_writer :roster
+  attr_accessor :roster
   
   @roster = {}
 
