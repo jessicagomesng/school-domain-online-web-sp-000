@@ -10,7 +10,6 @@ class School
 
   def add_student(name, year)
     roster[:year] = ["#{name}"]
-
   end
 
 end
