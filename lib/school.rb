@@ -15,6 +15,7 @@ class School
   end
 
   def grade(year)
+    self.roster[year]
   end
 
 end
