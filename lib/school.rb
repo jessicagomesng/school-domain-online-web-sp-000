@@ -13,6 +13,7 @@ class School
   end
 
   def add_student(name, year)
+    @roster 
     @roster[year] = ["#{name}"]
   end
 
