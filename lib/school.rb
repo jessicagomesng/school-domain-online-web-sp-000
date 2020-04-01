@@ -3,7 +3,7 @@ class School
 
   attr_reader :name
 
-  new = p[]
+  new = []
 
   def initialize(name)
     @name = name
