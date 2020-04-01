@@ -2,14 +2,11 @@
 class School
 
   attr_reader :name
+  @roster = {}
 
   def initialize(name)
     @name = name
     self.roster
-  end
-
-  def roster
-    @roster = {}
   end
 
   def add_student(name, year)
