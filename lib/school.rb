@@ -1,4 +1,4 @@
-require 'pry'
+
 # code here!
 class School
 
@@ -14,9 +14,8 @@ class School
   end
 
   def add_student(name, year)
-    binding.pry
     @roster[year] = []
-    @roster[year] << "#{name}" 
+    @roster[year] << "#{name}"
   end
 
 end
