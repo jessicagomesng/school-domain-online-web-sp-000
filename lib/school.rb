@@ -19,6 +19,7 @@ class School
   end
 
   def sort
-  end 
+    self.roster[year].sort
+  end
 
 end
