@@ -2,7 +2,7 @@
 # code here!
 class School
 
-  attr_reader :name
+  attr_accessor :name
 
   def initialize(name)
     @name = name
@@ -16,7 +16,7 @@ class School
   def roster
     @roster
   end
-  
+
   def add_student(name, year)
     @roster[year] = [] if !@roster[year]
     @roster[year] << name
