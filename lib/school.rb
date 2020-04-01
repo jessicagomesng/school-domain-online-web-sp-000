@@ -14,6 +14,7 @@ class School
   end
 
   def add_student(name, year)
+    binding.pry 
     @roster[year] = []
     @roster[year] << ["#{name}"]
   end
